@@ -6,6 +6,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
         <div className="flex items-center gap-4">
           <a href="/dashboard/analytics" className="text-sm text-gray-500 hover:text-black transition-colors">Analytics</a>
           <a href="/dashboard" className="text-sm text-gray-500 hover:text-black transition-colors">Editor</a>
+          <a href="/dashboard/settings" className="text-sm text-gray-500 hover:text-black transition-colors">Settings</a>
         </div>
       </nav>
       <main className="max-w-2xl mx-auto px-4 py-8">{children}</main>
