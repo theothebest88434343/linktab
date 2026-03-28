@@ -27,7 +27,7 @@ export default function LandingPage() {
           <Link href="/signup" className="bg-black text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition-colors">
             Create your Linktab
           </Link>
-          <Link href="/sir" className="text-sm text-gray-500 hover:text-black transition-colors">
+          <Link href="/theosteinstrasser" className="text-sm text-gray-500 hover:text-black transition-colors">
             See an example →
           </Link>
         </div>
